@@ -1,0 +1,26 @@
+{
+  "name": "neural-dharma",
+  "version": "1.0.0",
+  "description": "AI alignment framework based on Bhagavad Gita principles. Nishkama Karma optimization, Sthitaprajna guards, Guna classification.",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": ["dist"],
+  "scripts": {
+    "build": "tsc",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": ["ai-alignment", "ai-safety", "bhagavad-gita", "ethics", "dharma", "alignment", "guardrails"],
+  "author": "Darshj.me",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/darshjme-codes/neural-dharma"
+  },
+  "homepage": "https://github.com/darshjme-codes/neural-dharma#readme",
+  "engines": {
+    "node": ">=18"
+  },
+  "devDependencies": {
+    "typescript": "^5.3.0"
+  }
+}
